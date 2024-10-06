@@ -1,0 +1,116 @@
+/* Hidden by default */
+.booking-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    display: none; /* Form is hidden by default */
+    margin-top: 30px;
+}
+
+.booking-form-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: left;
+    position: relative;
+}
+
+/* .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+} */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Flex properties for left and right forms */
+.left-form,
+.right-form {
+    flex: 1; /* Each takes equal space */
+    padding: 10px; /* Padding around the columns */
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    gap: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #F8B600;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #fff;
+    border: 1px solid #F8B600;
+    color: #F8B600;
+}
+
+/* Cancel button styles */
+.cancel-btn {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background-color: #fff;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.price-primary-btn{
+    width: fit-content;
+    background-color: #F8B600;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.price-primary-btn:hover {
+    background-color: #fff;
+    border: 1px solid #F8B600;
+    color: #F8B600;
+}
+/* This class will be added to the body to stop scrolling */
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .booking-form-content {
+        flex-direction: column; /* Stack the inputs on smaller screens */
+    }
+}

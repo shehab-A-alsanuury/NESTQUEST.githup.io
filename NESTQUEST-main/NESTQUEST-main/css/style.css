@@ -1,0 +1,153 @@
+.booking-form-container {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto; 
+    z-index: 150; 
+}
+
+.booking-form-content {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); 
+    max-width: 800px; 
+    width: 90%; 
+    max-height: 90%; 
+    overflow-y: auto; 
+    text-align: left;
+    position: relative;
+    animation: fadeIn 0.5s; 
+}
+
+/* animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translateY(-20px); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.close-btn1 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    color: #e74c3c; 
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-btn1:hover {
+    color: #c0392b; 
+}
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Form row structure for 3 columns */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between; 
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 30%; 
+    box-sizing: border-box; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    font-size: 14px; 
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="number"]:focus {
+    border-color: #3498db; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+/* Button styles */
+.submit-btn1, .close-btn1 {
+    background-color: rgb(255, 183, 0); 
+    color: black; 
+    padding: 10px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.submit-btn1:hover {
+    background-color: #218838; 
+}
+
+.submit-btn1:active, .close-btn1:active {
+    background-color: red; 
+    transform: scale(0.95); 
+}
+
+/* Close button1 styles */
+@media (max-width: 600px) {
+    .booking-form-content {
+        padding: 20px;
+    }
+
+    .form-row {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .form-group {
+        min-width: 100%; 
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="time"],
+    input[type="number"] {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .submit-btn1 {
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}

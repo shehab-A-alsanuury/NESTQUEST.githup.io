@@ -1,0 +1,267 @@
+{
+  "flights": [
+    {
+      "id": "1",
+      "type": "Cheap Packages",
+      "destination": "Los Angeles",
+      "price": 199
+    },
+    {
+      "id": "2",
+      "type": "Cheap Packages",
+      "destination": "Tokyo",
+      "price": 249
+    },
+    {
+      "id": "3",
+      "type": "Cheap Packages",
+      "destination": "Barcelona",
+      "price": 299
+    },
+    {
+      "id": "4",
+      "type": "Cheap Packages",
+      "destination": "Rio de Janeiro",
+      "price": 349
+    },
+    {
+      "id": "5",
+      "type": "Cheap Packages",
+      "destination": "Cairo",
+      "price": 229
+    },
+    {
+      "id": "6",
+      "type": "Cheap Packages",
+      "destination": "Istanbul",
+      "price": 199
+    },
+    {
+      "id": "7",
+      "type": "Luxury Packages",
+      "destination": "Paris",
+      "price": 2499
+    },
+    {
+      "id": "8",
+      "type": "Luxury Packages",
+      "destination": "Dubai",
+      "price": 2799
+    },
+    {
+      "id": "9",
+      "type": "Luxury Packages",
+      "destination": "Rome",
+      "price": 2599
+    },
+    {
+      "id": "10",
+      "type": "Luxury Packages",
+      "destination": "Bangkok",
+      "price": 2699
+    },
+    {
+      "id": "11",
+      "type": "Luxury Packages",
+      "destination": "Sydney",
+      "price": 2899
+    },
+    {
+      "id": "12",
+      "type": "Luxury Packages",
+      "destination": "London",
+      "price": 2999
+    },
+    {
+      "id": "13",
+      "type": "Camping Packages",
+      "destination": "Grand Canyon",
+      "price": 599
+    },
+    {
+      "id": "14",
+      "type": "Camping Packages",
+      "destination": "Yellowstone",
+      "price": 699
+    },
+    {
+      "id": "15",
+      "type": "Camping Packages",
+      "destination": "Zion National Park",
+      "price": 499
+    },
+    {
+      "id": "16",
+      "type": "Camping Packages",
+      "destination": "Yosemite",
+      "price": 799
+    },
+    {
+      "id": "17",
+      "type": "Camping Packages",
+      "destination": "Joshua Tree",
+      "price": 749
+    },
+    {
+      "id": "18",
+      "type": "Camping Packages",
+      "destination": "Acadia National Park",
+      "price": 649
+    }
+  ],
+  "popular-destinations": [
+    {
+      "price": "$150",
+      "title": "Mountain River",
+      "location": "Paraguay",
+      "image": "img/d1.jpg",
+      "id": "a215"
+    },
+    {
+      "price": "$250",
+      "title": "Dream City",
+      "location": "Paris",
+      "image": "img/d2.jpg",
+      "id": "4d6d"
+    },
+    {
+      "price": "$350",
+      "title": "Cloud Mountain",
+      "location": "Sri Lanka",
+      "image": "img/d3.jpg",
+      "id": "04a0"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1727936529620",
+      "destination": "Barcelona",
+      "price": "299",
+      "creditCard": "ncbfdfbdfd",
+      "expDate": "23232",
+      "cvc": "32323",
+      "bookingDate": "2024-09-30",
+      "bookingTime": "00:12"
+    },
+    {
+      "id": "1727938182301",
+      "destination": "Istanbul",
+      "price": "199",
+      "creditCard": "3343434343",
+      "expDate": "2323",
+      "cvc": "323",
+      "bookingDate": "2020-12-27",
+      "bookingTime": "00:12"
+    },
+    {
+      "id": "1727938228143",
+      "destination": "Barcelona",
+      "price": "299",
+      "creditCard": "3343434343",
+      "expDate": "2323",
+      "cvc": "323",
+      "bookingDate": "2024-10-02",
+      "bookingTime": "00:11"
+    },
+    {
+      "id": "1727938985988",
+      "destination": "Los Angeles",
+      "price": "199",
+      "creditCard": "3343434343",
+      "expDate": "2323",
+      "cvc": "323",
+      "bookingDate": "0001-12-12",
+      "bookingTime": "11:11"
+    },
+    {
+      "id": "1727939131281",
+      "destination": "Los Angeles",
+      "price": "199",
+      "creditCard": "1111111111111111",
+      "expDate": "01/24",
+      "cvc": "323",
+      "bookingDate": "111111-11-11",
+      "bookingTime": "11:11"
+    },
+    {
+      "id": "1727940702328",
+      "destination": "Los Angeles",
+      "price": "199",
+      "creditCard": "1111111111111111",
+      "expDate": "01/24",
+      "cvc": "323",
+      "bookingDate": "0121-12-12",
+      "bookingTime": "11:11"
+    },
+    {
+      "id": "1727941527883",
+      "destination": "Los Angeles",
+      "price": "199",
+      "creditCard": "1111111111111111",
+      "expDate": "01/24",
+      "cvc": "322",
+      "bookingDate": "0011-11-11",
+      "bookingTime": "11:11"
+    },
+    {
+      "id": "1727942604353",
+      "destination": "Los Angeles",
+      "price": "199",
+      "fullName": "Mohammad",
+      "email": "uig7914@m4ail.com",
+      "creditCard": "1111111111111111",
+      "expDate": "01/26",
+      "cvc": "322",
+      "bookingDate": "2024-11-11",
+      "bookingTime": "11:11"
+    },
+    {
+      "id": "1727949861648",
+      "destination": "Los Angeles",
+      "price": "199",
+      "fullName": "gfdsdsd",
+      "email": "uig7914@gmail.com",
+      "creditCard": "2323232222121412",
+      "expDate": "11/24",
+      "cvc": "121",
+      "bookingDate": "2024-10-05",
+      "bookingTime": "13:03"
+    },
+    {
+      "id": "1727949969406",
+      "destination": "Los Angeles",
+      "price": "199",
+      "fullName": "dffdsfd",
+      "email": "uig19@gmail.com",
+      "creditCard": "2323232323121212",
+      "expDate": "12/24",
+      "cvc": "123",
+      "bookingDate": "2024-10-03",
+      "bookingTime": "22:05"
+    },
+    {
+      "id": "1727954250943",
+      "destination": "Paris",
+      "price": "2499",
+      "fullName": "mohammad",
+      "email": "uig@gmail.com",
+      "creditCard": "3434343434221212",
+      "expDate": "11/25",
+      "cvc": "222",
+      "bookingDate": "2024-10-10",
+      "bookingTime": "14:17"
+    },
+    {
+      "id": "1727956200057",
+      "destination": "Los Angeles",
+      "price": "199",
+      "fullName": "mohammad",
+      "email": "uig@gmail.com",
+      "creditCard": "3434343434221212",
+      "expDate": "11/25",
+      "cvc": "222",
+      "bookingDate": "2024-10-10",
+      "bookingTime": "14:17"
+    }
+  ]
+}
